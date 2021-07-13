@@ -1,3 +1,6 @@
+`use strict`
+
+
 //console.log("Davy");
 
 //console.info("Bell");
@@ -119,38 +122,54 @@
 //For each multiple of 5, print "Buzz" instead of the number. For numbers which
 // are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
 
-// let boolean div3 = false;
-// let boolean div5 = false;
-// let boolean div3and5 = false;
-let num = 1;
-for (let i=0; i<100;i++) {
-    if ((num%3 == 0) && (num%5 == 0)) {
-        console.log(`FizzBuzz`)
-    }
-    else if (num%5 == 0) {
 
-        console.log(`Buzz`);
+// let num = 1;
+// for (let i=0; i<100;i++) {
+//     if ((num%3 == 0) && (num%5 == 0)) {
+//         console.log(`Number ${num} is FizzBuzz`)
+//     }
+//     else if (num%5 == 0) {
 
-    }
+//         console.log(`Number ${num} is a Buzz`);
 
-    else if (num%3 == 0) {
+//     }
 
-        console.log(`Fizz`)
-    }
+//     else if (num%3 == 0) {
 
-    else {
+//         console.log(`Number ${num} is a Fizz`)
+//     }
 
-        console.log(num);
-    }
+//     else {
+
+//         console.log(num);
+//     }
     
-    num++;
+//     num++;
   
     
-    }
+//     }
 
+// Conditional Exercise - If statement
 
+//Create a IF statement that satifies the following:
+//Declare a variable age
+// Write a condition that checks if age is between 18 AND 65
+// Return a value in each case where the condition is satisfied and not satisfied.
+// Extra: Consider the case where age is less than 18 - return 'underage'.
 
+let age = 20;
+if ((age>=18)&&(age<=65)) {
+    console.log(`${age} is TRUE to condition`)
 
+}
+else if (age<18) {
 
+    console.log(`Underage`)
+    
+}
+else {
+
+    console.log(`${age} is FALSE for the condition`)
+}
 
 
