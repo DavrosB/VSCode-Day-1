@@ -80,13 +80,38 @@
 
 
 //Exercise 8 use For Loop for Exercise 2 (5)
-for (let a = 100; a <= 200; a++) {
-    if (a % 2 == 0) {
-      console.log(`The number is even ${a} - `);
-    } else {
-      console.log(`The number is odd ${a} * `);
-    }
-  }
+//for (let a = 100; a <= 200; a++) {
+//    if (a % 2 == 0) {
+//      console.log(`The number is even ${a} - `);
+//    } else {
+//      console.log(`The number is odd ${a} * `);
+//    }
+//  }
+
+//Exercise 9 - use switch case
+let today = new Date(); 
+let thisDay = today.getDay();
+//figure out which case number assigns to Tuesday
+console.log(thisDay.valueOf());
+
+switch (thisDay) {
+  case 0:
+    console.log(`It's Sunday`);
+    break;
+  case 6:
+    console.log(`It's Saturday`);
+    break;
+  case 1:
+  case 2:
+  case 3:
+  case 4:
+  case 5:
+    console.log(`It's either Tues/Wed/Thu or Fri`);
+    break;
+  default:
+    console.log(`I don't know what to do here`);
+    break;
+}
 
 
 
