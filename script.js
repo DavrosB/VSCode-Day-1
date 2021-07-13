@@ -157,19 +157,23 @@
 // Return a value in each case where the condition is satisfied and not satisfied.
 // Extra: Consider the case where age is less than 18 - return 'underage'.
 
-let age = 20;
-if ((age>=18)&&(age<=65)) {
-    console.log(`${age} is TRUE to condition`)
+// let age = 20;
+// if ((age>=18)&&(age<=65)) {
+//     console.log(`${age} is TRUE to condition`)
 
-}
-else if (age<18) {
+// }
+// else if (age<18) {
 
-    console.log(`Underage`)
+//     console.log(`Underage`)
     
-}
-else {
+// }
+// else {
 
-    console.log(`${age} is FALSE for the condition`)
-}
+//     console.log(`${age} is FALSE for the condition`)
+// }
 
 
+//Exercise 4 in QA Community
+//Using ternary-if syntax, write code that checks if age is above 50.
+let age = 50;
+age >=50 ? console.log(`Age is 50 or above`):console.log(`Age is less than 50`);
