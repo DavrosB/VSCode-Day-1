@@ -5,7 +5,7 @@ console.info("Bell");
 console.warn("Scotland");
 
 console.error("Pisces");
-
+console.log("BigBalls");
 
 let myCar = "Honda";
 let myModel = "CRV";
@@ -18,13 +18,13 @@ let myModel1 = "CRV";
 console.log(`my fav car is ${myCar1} and the model is ${myModel1}`);
 
 
-let a;
+//let a;
 let b = "12345";
 let c = 12344;
 let d = true;
 let e = {a:"JavaScript"};
 
-console.log (typeof(a));
+//console.log (typeof(a));
 console.log (typeof(b));
 console.log (typeof(c));
 console.log (typeof(d));
@@ -37,6 +37,30 @@ let totalLeftToPay = totalMoney - moneyPaidSoFar;
 
 console.log(`The customer's bill is £${totalMoney} the remaining amount of money left to be paid is £${totalLeftToPay}`);
 
-
-
 console.log(`The customers bill so far is £${totalMoney} the amount left to pay is £${totalMoney - totalLeftToPay}`);
+
+
+//Exercise 4
+//let a = 100;
+//while (a <= 200) {
+//    console.log(`the value of a is ${a}`);
+//    a++;
+//}
+
+//Exercise 5
+//let a =100;
+//while (a <= 200) {
+//    if (a%2 == 0) {
+//        console.log(`The number is even ${a} - `)
+    }
+//    else    {
+//        console.log(`The number is odd ${a} * `)
+//
+//    }
+//
+//   a++
+//}
+
+Exercise 6
+
+
