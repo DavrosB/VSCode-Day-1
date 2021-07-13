@@ -73,10 +73,22 @@
 //
 //}
 
-//Exercise 7
+//Exercise 7 use For Loop for Exercise 1 (4)
+//for (let a = 100; a <= 200; a++) {
+//    console.log(`a = ${a}`);
+//  }
+
+
+//Exercise 8 use For Loop for Exercise 2 (5)
 for (let a = 100; a <= 200; a++) {
-    console.log(`a = ${a}`);
+    if (a % 2 == 0) {
+      console.log(`The number is even ${a} - `);
+    } else {
+      console.log(`The number is odd ${a} * `);
+    }
   }
 
-  
+
+
+
 
