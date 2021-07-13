@@ -89,29 +89,66 @@
 //  }
 
 //Exercise 9 - use switch case
-let today = new Date(); 
-let thisDay = today.getDay();
-//figure out which case number assigns to Tuesday
-console.log(thisDay.valueOf());
+// let today = new Date(); 
+// let thisDay = today.getDay();
+// //figure out which case number assigns to Tuesday
+// console.log(thisDay.valueOf());
 
-switch (thisDay) {
-  case 0:
-    console.log(`It's Sunday`);
-    break;
-  case 6:
-    console.log(`It's Saturday`);
-    break;
-  case 1:
-  case 2:
-  case 3:
-  case 4:
-  case 5:
-    console.log(`It's either Tues/Wed/Thu or Fri`);
-    break;
-  default:
-    console.log(`I don't know what to do here`);
-    break;
-}
+// switch (thisDay) {
+//   case 0:
+//     console.log(`It's Sunday`);
+//     break;
+//   case 6:
+//     console.log(`It's Saturday`);
+//     break;
+//   case 1:
+//   case 2:
+//   case 3:
+//   case 4:
+//   case 5:
+//     console.log(`It's either Tues/Wed/Thu or Fri`);
+//     break;
+//   default:
+//     console.log(`I don't know what to do here`);
+//     break;
+// }
+
+
+//MINI TASK Write a short program that prints each number from 1 to 100
+// on a new line. For each multiple of 3, print "Fizz" instead of the number. 
+//For each multiple of 5, print "Buzz" instead of the number. For numbers which
+// are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
+
+// let boolean div3 = false;
+// let boolean div5 = false;
+// let boolean div3and5 = false;
+let num = 1;
+for (let i=0; i<100;i++) {
+    if ((num%3 == 0) && (num%5 == 0)) {
+        console.log(`FizzBuzz`)
+    }
+    else if (num%5 == 0) {
+
+        console.log(`Buzz`);
+
+    }
+
+    else if (num%3 == 0) {
+
+        console.log(`Fizz`)
+    }
+
+    else {
+
+        console.log(num);
+    }
+    
+    num++;
+  
+    
+    }
+
+
 
 
 
