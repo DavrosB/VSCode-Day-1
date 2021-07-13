@@ -31,3 +31,12 @@ console.log (typeof(d));
 console.log (typeof(e));
 
 
+let totalMoney = 4000;
+let moneyPaidSoFar = 2348;
+let totalLeftToPay = totalMoney - moneyPaidSoFar;
+
+console.log(`The customer's bill is £${totalMoney} the remaining amount of money left to be paid is £${totalLeftToPay}`);
+
+
+
+console.log(`The customers bill so far is £${totalMoney} the amount left to pay is £${totalMoney - totalLeftToPay}`);
