@@ -52,7 +52,7 @@ console.log(`The customers bill so far is £${totalMoney} the amount left to pay
 //while (a <= 200) {
 //    if (a%2 == 0) {
 //        console.log(`The number is even ${a} - `)
-    }
+ //   }
 //    else    {
 //        console.log(`The number is odd ${a} * `)
 //
@@ -61,6 +61,17 @@ console.log(`The customers bill so far is £${totalMoney} the amount left to pay
 //   a++
 //}
 
-Exercise 6
+//Exercise 6
+let number = 1;
+while (number <= 10) {
+
+for (let i =1; i<=10; i++) { 
+    console.log(number);
+}
+let i=1;
+number++;
+
+}
+
 
 
