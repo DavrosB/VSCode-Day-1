@@ -175,6 +175,65 @@
 
 //Exercise 4 in QA Community
 //Using ternary-if syntax, write code that checks if age is above 50.
-let age = 50;
-age >=50 ? console.log(`Age is 50 or above`):console.log(`Age is less than 50`);
+// let age = 50;
+// age >=50 ? console.log(`Age is 50 or above`):console.log(`Age is less than 50`);
 //this is the finished code
+
+
+// Exercise 1 
+//Create an object called darthVader with the keys allegiance, 
+//weapon and sith and the values of empire, lightsabre and true. 
+//Finally log darthVader
+
+// let darthVader = new Object();
+// darthVader["allegiance"] = "empire";
+// darthVader["weapon"] = "lightsabre";
+// darthVader["sith"] = "true";
+
+// console.log(darthVader);
+
+
+
+//Exercise 2
+//Create the following log statements using the darthVader Object
+//Darth Vader's allegiance is to the Empire;
+//Darth Vader's weapon of choice is a lightsabre;
+//Darth Vader is a sith? true;
+//Darth Vader is a Jedi? false;
+
+// let darthVader = new Object();
+// darthVader["allegiance"] = "empire";
+// darthVader["weapon"] = "lightsabre";
+// darthVader["sith"] = "true";
+
+// console.log(`DarthVader allegiance is to the ${darthVader.allegiance}`);
+// console.log(`DarthVader weapon of choice is a ${darthVader.weapon}`);
+// if (darthVader.sith == "true") {
+//     console.log(`DarthVader is a Sith?  TRUE or FALSE? = ${darthVader.sith}`)
+// }
+
+
+//Exercise 3
+
+//Create an array with the name myArray with 2 elements hello,everyone..
+let myArray = ["hello", "everyone"];
+
+// Next print the length of the array
+console.log(`The length of the array is ${myArray.length}`);
+
+// Next use the push() method to add 3 elements to the array
+myArray.push("how", "are","you");
+
+// Next print the length of the array
+console.log(`The length of the array is ${myArray.length}`);
+
+// Next use shift() to remove an element
+//In this case I'm removing the first element ie "hello"
+myArray.shift(1);
+
+// Finally print the contents of the array using an enhanced For loop.
+for (let arrayPlace of myArray) {
+    console.log(arrayPlace);
+}
+
+
