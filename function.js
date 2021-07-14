@@ -28,7 +28,9 @@
     // console.log(`The number ${n1} to the power of ${n2} equals ${powerNum}`)
 
 // Alternative
-// powerUp = (n1,n2) => Math.pow(n1,n2);
-// let n1=3;
-// let n2=3;
-// console.log(`Number ${n1} to the power ${n2} is ${powerUp(3,3)}`);
+// const powerUp = (n1,n2) => {
+// powerNum = Math.pow(n1,n2);
+// console.log(`Number ${n1} to the power ${n2} is ${powerNum}`);
+// }
+// powerUp(3,4);
+// powerUp(5,2);
