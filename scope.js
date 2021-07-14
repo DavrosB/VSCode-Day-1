@@ -12,14 +12,11 @@ const dumbFunction = () => {
     
     let x=`foo`;
     if (x==`foo`) {
-        let condition=true;
-        console.log(condition)
-    } 
-    else {
-        let condition=false;
-        console.log(condition)
-    }
-
+        let y=`boogaloo`
+    }   
+        console.log(x);
+        console.log(y)
+    
 }
 
 dumbFunction();
