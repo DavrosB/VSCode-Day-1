@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garden Plants</title>
+</head>
+
+<body>
+    <h1> Garden </h1>
+
+    <!-- Input fields, submit button, output on the screen! -->
+
+    <h1>CREATE:</h1>
+    <form method="POST">
+        <input type="text" id="plantName" name="plantName" placeholder="Enter the Plant Name:" />
+        <input type="text" id="plantType" name="plantType" placeholder="Enter the type of plant:" />
+        <input type="boolean" id="decorative" name="decorative" placeholder="Is it decorative? True/False" />
+
+        <button type="submit" id="btn" name="submit">Submit</button>
+    </form>
+
+    <hr/>
+
+    <h1>READ</h1>
+    <button type="Print" id="readbtn" name="Print">Print List</button>
+
+
+    <!-- Update Method - needs the record number to be updated and the new details-->
+    <!-- Will display message on screen-->
+    
+    <h2>UPDATE:</h2>
+    <form method="PUT">
+        <input type="text" id="uplantName" name="uplantName" placeholder="Enter the Plant Name:" />
+        <input type="text" id="uplantType" name="uplantType" placeholder="Enter the type of plant:" />
+        <input type="boolean" id="udecorative" name="udecorative" placeholder="Is it decorative? True/False" />
+        <input type="text" id="updateID" placeholder="Enter the ID you'd like to update"/>
+        <button type="submit" id="updatebtn" name="submit">Update</button>
+
+    </form>
+        <div id="responsefromdb"></div>
+    <hr/>
+
+
+
+
+    <h2>DELETE:</h2>
+
+    <input type="number" id="deleteID" placeholder="Enter the ID you'd like to delete"/>
+    <button type="submit" id="delBtn">Delete Plant</button>
+
+
+    <div id="responsefromdb"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+        integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./garden.js"></script>
+</body>
+
+</html>
